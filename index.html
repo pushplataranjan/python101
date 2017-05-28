@@ -24,8 +24,183 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+                <h1>Python101</h1>
+                <p>
+                    <small>Pushplata <br> Full Stack Developer <br> &nbsp;*&nbsp;
+                    <a href="https://github.com/pushp">github.com/pushp</a>
+                    <a href="https://www.linkedin.com/in/pushplata/">linkedin</a>
+                    </small>
+                </p>
+            	</section>
+					
+				<section>
+				<section>Installing Python</section>
+				<section>
+					<ul>
+					<li>
+					<h4>For Ubuntu</h4>
+					<p> sudo apt-get install python3</p></li>
+					<li>
+					<h4>For Windowns</h4>
+					<p> Download the latest Windows(TM) installer from the Python site, either x86_64 or i686. Install it just as any other Windows software.</p></li>
+
+					</ul>
+					</section>
+				</section>
+				<section>
+					<section>Installing Jupyter Notebook</section>
+					<section>
+					<li>A command shell for interactive computing as a web application.</li>
+					<li>used with several languages, including Python, Julia, R, Haskell, and Ruby</li>
+					<li>used for working with data, statistical modeling, and machine learning</li></section>
+					<section> pip install jupyter (install in virtual env)</section>
+					<section><h4>Running Jupyter Notebook</h4>
+					<p>jupyter notebook</p></section>
+				</section>
+				<section>
+					<section> Introduction to Python</section>
+					<section><li>Python is an interpreted, object-oriented, high-level programming language, that emphasizes in code readability</li></section>
+
+					<section><li>Interpreted: Programs can be run as soon as they are written, no need to compile;</li></section>
+					<section>
+					<ul>
+					<li>Object-oriented: The programming paradigm, where "objects" can be somewhat separated from the rest of the program.</li>
+					<li> An object is an entity that has a:</li>
+					<li> Identity: Unique identifier of the object</li>
+					<li>Value:</li>
+					<li>Type: whether it is a string, number, etc.</li>
+					<li>High-level: Abstracts from the computer it is being run on;</li><u></u></section>
+					<section> <ul><li> Python Interpreter</li>
+					<li>Source file</li>
+					<li>WhiteSpaces and Indentation</li>
+					<li>Comments</li>
+					<li>Modules</li></ul></section>
+				</section>
+				<section>
+					<section>Variable And Datatype</section>
+					<section> <h4>Keywords and Identifiers</h4>
+					<ul>
+					<li>class</li>
+					<li>for</li>
+					<li>and</li>
+					<li>assert</li>
+					<li>break</li>
+					<li>pass</li>
+					<li>import</li>
+					<li>raise</li>
+					<li>or</li>
+					<li>while</li>
+					<li>Many more ..</li></ul></section>
+					<section><h4>Reading input from the Keyboard</h4>
+					<p>input()</p></section>
+					<section><h4>Multiple assignments in a single line</h4>
+					<p> a,b = 2,4</p></section>
+					<section> <h4>Ex: Swap two numbers in single statement.</h4></section>
+				</section>
+				<section>
+					<section><h4>Operator and Expression </h4>
+					<p><small>Operators are the symbols which tells the Python interpreter to do some mathematical or logical operation. Few basic examples of mathematical operators are given below:</small></p>
+					<img src="img/ex.3.jpg" alt="" width="100%" height="10%" >
+					</section>
+					<section><h4>Examples</h4>
+					<img src="img/ex.4.jpg" alt="" width="100%" height="10%" >
+					<img src="img/ex.5.jpg" alt="" width="100%" height="10%" >
+					</section>
+					<section>
+					<ul>
+					<li> Relational Operators</li>
+					<li>Logical Operators</li>
+					<li>Shorthand Operator</li>
+					<li>Expressions</li>
+					<li>Type Conversation</li>
+					</ul></section>	
+				</section>	
+				<section>If/Else</section>
+				<section>
+					<section><h4>Looping</h4>
+					<ul><li>While</li>
+					<li>For</li>
+					<li>range()</li>
+					<li>continue</li>
+					<li>break</li>
+					</ul></section>
+				</section>
+				<section>	
+					<section><h4>Datatype</h4>
+					<ul><li>List</li>
+					<li>Using lists as stack and queue</li>
+					<li>List Comprehensions</li>
+					<li>Tuples</li>
+					<li>Sets</li>
+					<li>Dictionaries</li></ul></section>
+				</section>
+				<section>	
+					<section>String</section>
+					<section><h4>Different methods available for Strings</h4>
+					<ul><li>title()</li>
+					<li>upper(),lower()</li>
+					<li>swapcase(),split(),join()</li>
+					<li>isalpha(),isnum()</li>
+					<li>lstrip(),rstrip()</li></ul></section>
+				</section>
+				<section>
+					<section><h4>Function</h4>
+					<p><small>Reusing the same code is required many times within a same program.</small></section>
+					<section> Local and global variables</section>
+					<section>Default Argument Type</section>
+					<section>Keyword arguments</section>
+					<section>Map Function</section>
+				</section>	
+				<section>Modules, Directories and Packages</section>
+				<section>
+					<section>File Handling</section>
+					<section><h4> File Opening</h4>
+					<p><small>File opening
+						To open a file we use open() function. It requires two arguments, first the file path or file name, second which mode it should open. Modes are like
+						<ul>
+						<li>“r” -> open read only, you can read the file but can not edit / delete anything inside</li>
+						<li>“w” -> open with write power, means if the file exists then delete all content and open it to write</li>
+						 <li>“a” -> open in append mode</li>
+						<li>The default mode is read only, ie if you do not provide any mode it will open the file as read only. Let us open a file</li></ul></small></p></section>
+						<section><h4> File Closing</h4>
+					<p><small>File closing
+						After opening a file one should always close the opened file. We use method close() for this.></small></p></section>
+					<section>Reading a file</section>
+					<section>Using the with statement</section>
+					<section>Writing a file</section>
+					<section>Example: copyfile.py</section>
+				</section>
+				<section>
+					<section><h4>Exception</h4>	
+					<ul><li>TypeError</li>
+					<li>ValueError</li>
+					<li>NameError</li>
+					<li>Exceptions</li>
+					<li>Raise exceptions</li>
+					<li>Using finally for cleanup</li></ul></section>
+				</section>
+				<section>Examples</section>
+
+
+				<section>
+                <h4>References</h4>
+                <ul>
+                    <li><a href="https://docs.python.org/3/tutorial/">Python standard Documentation</a></li>
+                    <li><a href="http://anandology.com/python-practice-book/index.html">Python Practice Book</a></li>
+                    <li><a href="http://pymbook.readthedocs.io/">Python you and me</a></li>
+                    <li><a href="https://github.com/vinta/awesome-python">Awesome Python Examples</a></li>
+                    
+                </ul>
+            </section>
+
+            <section>
+                <h4>Any Questions ?</h4>
+            </section>
+
+            <section>
+                <h4>Thank you !!!</h4>
+            </section>
 			</div>
 		</div>
 
